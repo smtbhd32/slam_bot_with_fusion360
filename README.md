@@ -6,7 +6,7 @@ This project demonstrates the development of a SLAM (Simultaneous Localization a
 - **3D Design**: The robot model was created using Fusion 360 and exported to URDF.
 - **Gazebo Integration**: The robot is simulated in Gazebo with LIDAR and differential drive functionality.
 - **Custom Environment**: A custom Gazebo world was created to test the robot.
-- **SLAM Implementation**: Used the `slam_gmapping` package for robot localization and map creation.
+- **SLAM Implementation**: Used the [slam_gmapping](https://github.com/ros-perception/slam_gmapping)` package for robot localization and map creation.
 - **Teleoperation**: The robot can be manually controlled using the `teleop_twist_keyboard` package during simulation.
 - **Visualization**: The robot and SLAM process can be visualized using RQT and RViz.
 
