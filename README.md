@@ -31,7 +31,7 @@ This project demonstrates the development of a SLAM (Simultaneous Localization a
 
 3. **GMAPPING Launch (Start SLAM for Localization and Map Creation)**:
    ```bash
-   roslaunch myrobot_description gmapping.launch
+   roslaunch myrobot_description mapping.launch
    ```
 
 4. **Teleoperation (Control the Robot Using the Keyboard)**:
