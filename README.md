@@ -12,20 +12,24 @@ This project demonstrates the development of a SLAM (Simultaneous Localization a
 
 ## Project Steps
 1. **Create the Robot Model**: Design the robot in Fusion 360, including adding joints, and export it to URDF using the `fusion2urdf` tool.
+   
    ![Screenshot 2024-12-09 001758](https://github.com/user-attachments/assets/d631e91e-2da0-4205-8904-06279217ca4a)
-![Screenshot 2024-12-09 001741](https://github.com/user-attachments/assets/86e1b4fb-9c55-4971-907e-1b9d440b39d9)
 
 3. **Test the Robot in Gazebo**: Import the URDF model into Gazebo and add LIDAR and differential drive functionality through plugins.
+   
    ![Screenshot 2024-12-08 222045](https://github.com/user-attachments/assets/22e8e54c-ecf8-4762-a287-adf614353673)
 
 5. **Create a Gazebo World**: Build a custom Gazebo world for the robot and modify the launch file to load it.
+   
    ![Screenshot 2024-12-08 233748](https://github.com/user-attachments/assets/db809819-5b22-4005-af2f-2a2a1c512cd4)
 
 7. **Implement SLAM**: Use the `slam_gmapping` package for robot localization and map creation.
-8. **Save the Map**: Save the generated map after running the SLAM process.
+   
+9. **Save the Map**: Save the generated map after running the SLAM process.
+    
    ![Screenshot 2024-12-09 002645](https://github.com/user-attachments/assets/06b777b1-6304-459e-9275-830089f47fc5)
 
-10. **Control the Robot**: Use the `teleop_twist_keyboard` package to manually control the robot during the simulation.
+11. **Control the Robot**: Use the `teleop_twist_keyboard` package to manually control the robot during the simulation.
 
 ## Commands
 1. **Gazebo Launch (Simulate the Robot)**:
