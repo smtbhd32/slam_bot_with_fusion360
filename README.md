@@ -38,6 +38,10 @@ This project demonstrates the development of a SLAM (Simultaneous Localization a
    ```bash
    rosrun teleop_twist_keyboard teleop_twist_keyboard.py
    ```
+5. **Saving the map**:
+   ```bash
+   rosrun map_server map_saver -f myworld_map
+   ```
 
 ## Issues Faced
 - **Python Compatibility**: The script for exporting Fusion 360 models to URDF used `distutils.dir_util`, which is deprecated in Python 3.10 and above. This caused issues since Fusion 360 uses Python 3.12. I resolved this by replacing `distutils` with `shutil` for directory operations, ensuring compatibility with Python 3.12.
