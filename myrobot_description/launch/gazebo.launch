@@ -1,6 +1,12 @@
 <launch>
   <param name="robot_description" command="$(find xacro)/xacro $(find myrobot_description)/urdf/myrobot.xacro"/>
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model myrobot"/>
+  <!-- Start the joint_state_publisher to simulate the joint states -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+  <!-- Start the robot_state_publisher to calculate and publish transforms -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find myrobot_description)/worlds/myworld/myworld"/>
     <arg name="paused" value="false"/>

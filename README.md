@@ -25,6 +25,8 @@ This project demonstrates the development of a SLAM (Simultaneous Localization a
 
 7. **Implement SLAM**: Use the `slam_gmapping` package for robot localization and map creation.
    
+   ![Screenshot 2024-12-09 063508](https://github.com/user-attachments/assets/ccf7a287-50c0-468b-bb4b-47f9092ec526)
+
 9. **Save the Map**: Save the generated map after running the SLAM process.
     
    ![Screenshot 2024-12-09 002645](https://github.com/user-attachments/assets/06b777b1-6304-459e-9275-830089f47fc5)
