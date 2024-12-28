@@ -2,6 +2,17 @@
 
 This project demonstrates the development of a SLAM (Simultaneous Localization and Mapping) bot using ROS and Gazebo. The process involves creating a robot model in Fusion 360, exporting it to URDF, adding functionality with Gazebo plugins, and implementing SLAM for robot localization and map creation. The entire project is based on the [SLAM Robot Simulation playlist](https://www.youtube.com/watch?v=cQh0gNfb6ro&list=PLXM8kq-f3YucvPdqchLU22WfUfjKCIqlO&ab_channel=JerinPeter) by Jerin Peter.
 
+## Watch Demo
+
+You can watch the demonstration on YouTube by clicking the video below:
+
+<p align="center">
+  <a href="https://youtu.be/1A1sOTqlxNs" target="_blank">
+    <img src="https://github.com/smtbhd32/slam_bot_with_fusion360/raw/main/video%20thumbnail.png" alt="Watch the video" width="80%" height="auto" />
+  </a>
+</p>
+
+
 ## Features
 - **3D Design**: The robot model was created using Fusion 360 and exported to URDF.
 - **Gazebo Integration**: The robot is simulated in Gazebo with LIDAR and differential drive functionality.
